@@ -1,0 +1,42 @@
+<svg width="135" height="147" viewBox="0 0 135 147" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="135" height="147" fill="#F5F5F5"/>
+<g id="Desktop" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="8256" transform="translate(0 -114)" fill="white"/>
+<g id="Frame">
+<g id="Frame_2">
+<g id="Frame_3">
+<g id="Rectangle" filter="url(#filter0_d_0_1)">
+<path d="M0 -74H1440V0H0V-74Z" fill="white"/>
+</g>
+</g>
+<g id="Frame_4">
+<path id="Rectangle_2" d="M0 0H1440V686H0V0Z" fill="#F5F5F2"/>
+<g id="Frame_5">
+<g id="Frame_6">
+<g id="IMAGE" clip-path="url(#clip1_0_1)">
+<path id="Vector" d="M-1.97562e-05 146.608H45V97.7388H90V48.8695H135V0.000167847L-3.15583e-05 0.000180663L-1.97562e-05 146.608Z" fill="#E7E8E3"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="-4" y="-78" width="1448" height="82" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="8256" fill="white" transform="translate(0 -114)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="135" height="147" fill="white"/>
+</clipPath>
+</defs>
+</svg>
