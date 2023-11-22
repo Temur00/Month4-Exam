@@ -224,10 +224,6 @@ html {
     }
     // MEDIA
     @media only screen and (max-width: 1437px) {
-      // html {
-      //   body {
-      //   }
-      // }
       header {
         nav {
           .nav-items {
@@ -444,9 +440,10 @@ html {
             display: block;
             // justify-content: space-between;
             .text-part {
+              padding-top: 20px;
               p:first-child {
                 margin-left: 50px;
-                margin-top: 150px;
+                margin-top: 94px;
                 width: 181px;
                 padding-top: 4px;
                 padding-left: 12px;
@@ -490,7 +487,7 @@ html {
             .text-part {
               p:first-child {
                 margin-left: 50px;
-                margin-top: 150px;
+                margin-top: 94px;
                 width: 181px;
                 padding-top: 4px;
                 padding-left: 12px;
@@ -1895,6 +1892,7 @@ html {
       }
       section:nth-child(6) {
         background: #f5f5f2;
+        padding-bottom: 300px;
         .sixth-section {
           .sth-texts {
             p:first-child {
@@ -1974,16 +1972,16 @@ html {
             }
           }
           .sixth-buttons {
-            padding-bottom: 360px;
+            // padding-bottom: 128px;
             display: flex;
             padding-top: 21px;
             gap: 24px;
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
-            @media only screen and (max-width: 600px) {
-              padding-bottom: 360px;
-            }
+            // @media only screen and (max-width: 600px) {
+            //   padding-bottom: 360px;
+            // }
             p:first-child {
               margin-top: 34px;
               max-width: 192px;
@@ -2064,16 +2062,22 @@ html {
         display: flex;
         align-items: center;
         justify-content: center;
+        // bottom: 30%;
+        margin-top: -220px;
         .family {
+          max-width: 1280px;
           position: relative;
-          width: 1280px;
+          width: 100%;
           height: 465px;
           flex-shrink: 0;
           border-radius: 24px;
           background: #65665c;
-          bottom: 2300px;
+          margin-bottom: 50px;
+
+          // bottom: 2300px;
           .people {
             padding-top: 96px;
+
             display: flex;
             align-items: center;
             justify-content: center;
@@ -2103,9 +2107,17 @@ html {
             font-weight: 700;
             line-height: 57.6px; /* 120% */
           }
+          @media only screen and (max-width: 500px) {
+            .people {
+              padding-top: 30px;
+            }
+            p:nth-child(2) {
+              font-size: 32px;
+            }
+          }
           p:nth-child(3) {
-            padding-left: 257px;
-            padding-right: 258px;
+            padding-left: 10%;
+            padding-right: 10%;
             // max-width: 765px;
             color: #e7e8e3;
             text-align: center;
@@ -2122,7 +2134,6 @@ html {
             button {
               margin-top: 21px;
               width: 137px;
-              height: 50px;
               flex-shrink: 0;
               border-radius: 6px;
               border: 1px solid #cf6f49;
@@ -2134,15 +2145,19 @@ html {
               font-style: normal;
               font-weight: 400;
               line-height: 24px; /* 150% */
+              padding: 13px 25px;
             }
           }
         }
       }
-      section:nth-child(7) {
+      section:nth-child(8) {
         .seventh-section {
           .svth-texts {
             p:first-child {
-              padding-top: 625px;
+              padding-top: 157px;
+              @media only screen and (max-width: 600px) {
+                padding-top: 50px;
+              }
               color: #2a2c1f;
               text-align: center;
               font-family: Roboto;
@@ -2240,7 +2255,7 @@ html {
           }
         }
       }
-      section:nth-child(8) {
+      section:nth-child(9) {
         background: #f5f5f2;
         .eigth-section {
           padding-left: 80px;
@@ -3468,10 +3483,10 @@ html {
   font-size: 24px;
   font-weight: 900;
   background: #cf6f49;
-  opacity: 0.9;
+  opacity: 0.85;
   box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.2);
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;

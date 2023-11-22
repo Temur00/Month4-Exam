@@ -11,7 +11,7 @@ function toggleBacktop() {
   ) {
     backtop.style.bottom = "20px";
   } else {
-    backtop.style.bottom = "-60px";
+    backtop.style.bottom = "-80px";
   }
 }
 
