@@ -623,6 +623,7 @@ html body main section:nth-child(3) .third-section .th-texts-part .buttons p:fir
   padding: 13px 25px;
   color: #2a2c1f;
   padding-left: 23px;
+  cursor: pointer;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -635,16 +636,31 @@ html body main section:nth-child(3) .third-section .th-texts-part .buttons p:fir
   color: #fff;
 }
 html body main section:nth-child(3) .third-section .th-texts-part .buttons p:nth-child(2) {
-  display: flex;
-  align-items: center;
-  margin-left: 30px;
+  padding-left: 23px;
   margin-top: 34px;
+  padding: 13px 25px;
   padding-left: 23px;
   max-width: 192px;
+  height: 50px;
+  color: #2a2c1f;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1.5px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.08);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  transition: 0.4s !important;
+  background: transparent;
   border: none;
-  background: none;
-  transition: 0.3s;
+  box-shadow: none;
 }
 html body main section:nth-child(3) .third-section .th-texts-part .buttons p:nth-child(2):hover {
   display: flex;
@@ -653,7 +669,7 @@ html body main section:nth-child(3) .third-section .th-texts-part .buttons p:nth
   height: 50px;
   flex-shrink: 0;
   border-radius: 6px;
-  border: 1px solid #e7e8e3;
+  border: 2px solid #e7e8e3;
   background: #fff;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.08);
   padding: 13px 25px;
@@ -894,6 +910,9 @@ html body main section:nth-child(3) .third-section .th-image-part img {
     width: 100%;
   }
 }
+html body main section:nth-child(4) {
+  padding-bottom: 128px;
+}
 html body main section:nth-child(4) .fourth-section {
   padding-top: 128px;
   display: flex;
@@ -976,6 +995,7 @@ html body main section:nth-child(4) .fourth-section .th-texts-part .f-cards .f-c
   line-height: 24px; /* 150% */
 }
 html body main section:nth-child(4) .fourth-section .th-texts-part .buttons {
+  padding-bottom: 0px;
   display: flex;
   padding-top: 21px;
   gap: 24px;
@@ -995,6 +1015,7 @@ html body main section:nth-child(4) .fourth-section .th-texts-part .buttons p:fi
   padding: 13px 25px;
   color: #2a2c1f;
   padding-left: 23px;
+  cursor: pointer;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -1007,16 +1028,31 @@ html body main section:nth-child(4) .fourth-section .th-texts-part .buttons p:fi
   color: #fff;
 }
 html body main section:nth-child(4) .fourth-section .th-texts-part .buttons p:nth-child(2) {
-  display: flex;
-  align-items: center;
-  margin-left: 30px;
+  padding-left: 23px;
   margin-top: 34px;
+  padding: 13px 25px;
   padding-left: 23px;
   max-width: 192px;
+  height: 50px;
+  color: #2a2c1f;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1.5px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.08);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  transition: 0.4s !important;
+  background: transparent;
   border: none;
-  background: none;
-  transition: 0.3s;
+  box-shadow: none;
 }
 html body main section:nth-child(4) .fourth-section .th-texts-part .buttons p:nth-child(2):hover {
   display: flex;
@@ -1046,7 +1082,7 @@ html body main section:nth-child(4) .fourth-section .th-image-part img {
     display: flex;
     gap: 0px;
     padding-left: 0px;
-    padding-right: 0px;
+    padding-right: 0px !important;
   }
   html body main section:nth-child(4) .fourth-section .th-texts-part {
     padding-top: 20px;
@@ -1091,7 +1127,7 @@ html body main section:nth-child(4) .fourth-section .th-image-part img {
     padding-left: 23px;
   }
   html body main section:nth-child(4) .fourth-section .th-image-part img {
-    padding-right: 80px;
+    padding-right: 0px;
     width: 100%;
   }
 }
@@ -1157,6 +1193,9 @@ html body main section:nth-child(4) .fourth-section .th-image-part img {
   }
 }
 @media only screen and (max-width: 931px) {
+  html body main section:nth-child(4) {
+    padding-bottom: 10px;
+  }
   html body main section:nth-child(4) .fourth-section {
     padding-top: 0px;
     display: flex;
@@ -1184,6 +1223,7 @@ html body main section:nth-child(4) .fourth-section .th-image-part img {
     max-width: 920px;
   }
   html body main section:nth-child(4) .fourth-section .th-texts-part .buttons {
+    padding-bottom: 50px;
     display: flex;
     padding-top: 21px;
     gap: 24px;
@@ -1215,6 +1255,9 @@ html body main section:nth-child(4) .fourth-section .th-image-part img {
   }
 }
 @media only screen and (max-width: 510px) {
+  html body main section:nth-child(4) {
+    padding-bottom: 0px;
+  }
   html body main section:nth-child(4) .fourth-section {
     padding-top: 0px;
     display: flex;
@@ -1255,6 +1298,7 @@ html body main section:nth-child(4) .fourth-section .th-image-part img {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding-bottom: 10px;
   }
   html body main section:nth-child(4) .fourth-section .th-texts-part .buttons p:first-child {
     margin-top: 34px;
@@ -1279,6 +1323,9 @@ html body main section:nth-child(4) .fourth-section .th-image-part img {
   }
 }
 @media only screen and (max-width: 460px) {
+  html body main section:nth-child(4) {
+    padding-bottom: 0;
+  }
   html body main section:nth-child(4) .fourth-section {
     padding-top: 0px;
     display: flex;
@@ -1334,6 +1381,832 @@ html body main section:nth-child(4) .fourth-section .th-image-part img {
   }
   html body main section:nth-child(4) .fourth-section .th-image-part img {
     width: 100%;
+  }
+}
+html body main section:nth-child(5) {
+  background: #f5f5f2;
+}
+html body main section:nth-child(5) .fifth-section .like-button {
+  padding-top: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+  html body main section:nth-child(5) .fifth-section .like-button {
+    padding-top: 30px;
+  }
+}
+html body main section:nth-child(5) .fifth-section .like-button p:first-child {
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 32px;
+  background: #e7e8e3;
+  max-width: 92px;
+  height: 29px;
+  flex-shrink: 0;
+  color: #2a2c1f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+html body main section:nth-child(5) .fifth-section p:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 21px;
+  color: #2a2c1f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57.6px; /* 120% */
+}
+@media only screen and (max-width: 500px) {
+  html body main section:nth-child(5) .fifth-section p:nth-child(2) {
+    font-size: 32px;
+  }
+}
+html body main section:nth-child(5) .fifth-section .fth-cards {
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 80px;
+  padding-right: 80px;
+  gap: 32px;
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .fth-card {
+  width: 350px;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  z-index: 20;
+  scale: 1.2, 1, 2;
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .fth-card .fth-texts {
+  background: #fff;
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .fth-card .fth-texts p:first-child {
+  margin-top: 265px;
+  padding-left: 24px;
+  padding-top: 24px !important;
+  display: flex;
+  justify-content: start;
+  color: #2a2c1f;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33.6px; /* 140% */
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .fth-card .fth-texts p:nth-child(2) {
+  padding-left: 24px;
+  padding-top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #2a2c1f;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px; /* 150% */
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .fth-card .fth-texts p:nth-child(3) {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  padding-top: 16px;
+  color: #65665c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .fth-card .fth-texts p:nth-child(3) i {
+  padding-right: 10px;
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .fth-card .facilities {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: #fff;
+  padding-left: 24px;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  display: flex;
+  gap: 24px;
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .fth-card .facilities p:first-child {
+  color: #65665c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .fth-card .facilities p:first-child i {
+  padding-right: 10px;
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .fth-card .facilities p:nth-child(2) {
+  padding-top: 0 !important;
+  color: #65665c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .fth-card .facilities p:nth-child(2) i {
+  padding-right: 10px;
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .fth-card .facilities p:nth-child(3) {
+  color: #65665c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .fth-card .facilities p:nth-child(3) i {
+  padding-right: 10px;
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .first {
+  background-image: url(./images/cards-first.svg);
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .second {
+  background-image: url(./images/cards-second.svg);
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .third {
+  background-image: url(./images/cards-third.svg);
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .fourth {
+  background-image: url(./images/cards-fourth.svg);
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .fifth {
+  background-image: url(./images/cards-fifth.svg);
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .sixth {
+  background-image: url(./images/cards-sixth.svg);
+}
+html body main section:nth-child(5) .fifth-section .fth-cards .fth-card:hover {
+  transition: 0.4s;
+  box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.2);
+}
+@media only screen and (max-width: 800px) {
+  html body main section:nth-child(5) .fifth-section .fth-cards {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    padding-right: 0px;
+    gap: 32px;
+  }
+}
+html body main section:nth-child(5) .fifth-section .fifth-buttons {
+  padding-bottom: 160px;
+  display: flex;
+  padding-top: 21px;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+  html body main section:nth-child(5) .fifth-section .fifth-buttons {
+    padding-bottom: 60px;
+  }
+}
+html body main section:nth-child(5) .fifth-section .fifth-buttons p:first-child {
+  margin-top: 34px;
+  max-width: 192px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.08);
+  padding: 13px 25px;
+  color: #2a2c1f;
+  padding-left: 23px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  transition: 0.4s;
+}
+html body main section:nth-child(5) .fifth-section .fifth-buttons p:first-child:hover {
+  background: #cf6f49;
+  color: #fff;
+}
+html body main section:nth-child(5) .fifth-section .fifth-buttons p:nth-child(2) {
+  padding-left: 23px;
+  cursor: pointer;
+  margin-top: 34px;
+  max-width: 192px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.08);
+  padding: 13px 25px;
+  color: #2a2c1f;
+  padding-left: 23px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  transition: 0.4s;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+html body main section:nth-child(5) .fifth-section .fifth-buttons p:nth-child(2):hover {
+  display: flex;
+  align-items: center;
+  max-width: 192px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 2px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.08);
+  padding: 13px 25px;
+  color: #2a2c1f;
+  padding-left: 23px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+html body main section:nth-child(6) {
+  background: #f5f5f2;
+}
+html body main section:nth-child(6) .sixth-section .sth-texts p:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2a2c1f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57.6px; /* 120% */
+}
+html body main section:nth-child(6) .sixth-section .sth-texts p:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #65665c;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+html body main section:nth-child(6) .sixth-section .sth-cards {
+  display: flex;
+  gap: 16px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 1250px) {
+  html body main section:nth-child(6) .sixth-section .sth-cards {
+    padding: 0;
+    padding-top: 50px;
+  }
+}
+html body main section:nth-child(6) .sixth-section .sth-cards .sth-card {
+  width: 386px;
+  height: 130px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+@media only screen and (max-width: 450px) {
+  html body main section:nth-child(6) .sixth-section .sth-cards .sth-card {
+    width: 310px;
+  }
+}
+html body main section:nth-child(6) .sixth-section .sth-cards .sth-card p:first-child {
+  padding-top: 33px;
+  padding-left: 33px;
+  color: #2a2c1f;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 140% */
+}
+html body main section:nth-child(6) .sixth-section .sth-cards .sth-card p:nth-child(2) {
+  padding-left: 33px !important;
+  padding-top: 12px;
+  color: #2a2c1f;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+html body main section:nth-child(6) .sixth-section .sth-cards .sth-card:hover {
+  transition: 0.4s;
+  box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.2);
+}
+html body main section:nth-child(6) .sixth-section .sixth-buttons {
+  padding-bottom: 360px;
+  display: flex;
+  padding-top: 21px;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+  html body main section:nth-child(6) .sixth-section .sixth-buttons {
+    padding-bottom: 360px;
+  }
+}
+html body main section:nth-child(6) .sixth-section .sixth-buttons p:first-child {
+  margin-top: 34px;
+  max-width: 192px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.08);
+  padding: 13px 25px;
+  color: #2a2c1f;
+  padding-left: 23px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  transition: 0.4s;
+}
+html body main section:nth-child(6) .sixth-section .sixth-buttons p:first-child:hover {
+  background: #cf6f49;
+  color: #fff;
+}
+html body main section:nth-child(6) .sixth-section .sixth-buttons p:nth-child(2) {
+  padding-left: 23px;
+  cursor: pointer;
+  margin-top: 34px;
+  max-width: 192px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.08);
+  padding: 13px 25px;
+  color: #2a2c1f;
+  padding-left: 23px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  transition: 0.4s;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+html body main section:nth-child(6) .sixth-section .sixth-buttons p:nth-child(2):hover {
+  display: flex;
+  align-items: center;
+  max-width: 192px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 2px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.08);
+  padding: 13px 25px;
+  color: #2a2c1f;
+  padding-left: 23px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+html body main section:nth-child(7) .seventh-section .svth-texts p:first-child {
+  padding-top: 625px;
+  color: #2a2c1f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57.6px; /* 120% */
+}
+@media only screen and (max-width: 400px) {
+  html body main section:nth-child(7) .seventh-section .svth-texts p:first-child {
+    font-size: 32px;
+  }
+}
+html body main section:nth-child(7) .seventh-section .svth-texts p:nth-child(2) {
+  padding-top: 26px;
+  color: #65665c;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+html body main section:nth-child(7) .seventh-section .svth-cards {
+  padding-top: 80px;
+  gap: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+html body main section:nth-child(7) .seventh-section .svth-cards .svth-card {
+  max-width: 405px;
+  height: 325px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid #e7e8e3;
+  background: #eeeeee;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+@media only screen and (max-width: 400px) {
+  html body main section:nth-child(7) .seventh-section .svth-cards .svth-card {
+    width: 320px;
+  }
+}
+html body main section:nth-child(7) .seventh-section .svth-cards .svth-card .icons {
+  padding-top: 33px;
+  padding-left: 33px;
+  display: flex;
+  gap: 4px;
+  transition: 0.3s;
+  color: #fff;
+  cursor: pointer;
+}
+html body main section:nth-child(7) .seventh-section .svth-cards .svth-card .icons:hover {
+  color: #cf6f49;
+}
+html body main section:nth-child(7) .seventh-section .svth-cards .svth-card p {
+  padding-right: 33px;
+  padding-top: 27px;
+  padding-left: 33px;
+  color: #2a2c1f;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+html body main section:nth-child(7) .seventh-section .svth-cards .svth-card .person {
+  display: flex;
+  padding-top: 28px;
+  padding-left: 33px;
+}
+html body main section:nth-child(7) .seventh-section .svth-cards .svth-card .person .p-info {
+  padding-left: 16px;
+}
+html body main section:nth-child(7) .seventh-section .svth-cards .svth-card .person .p-info p:first-child {
+  padding-top: 0 !important;
+  color: #2a2c1f;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+html body main section:nth-child(7) .seventh-section .svth-cards .svth-card .person .p-info p:nth-child(2) {
+  padding-top: 1px !important;
+  color: #65665c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+html body main section:nth-child(7) .seventh-section .svth-cards .svth-card:hover {
+  transition: 0.4s;
+  box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.2);
+}
+html body main section:nth-child(8) {
+  background: #f5f5f2;
+}
+html body main section:nth-child(8) .eigth-section {
+  padding-left: 80px;
+}
+html body main section:nth-child(8) .eigth-section .likes-button {
+  padding-top: 38px;
+}
+html body main section:nth-child(8) .eigth-section .likes-button p:first-child {
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 32px;
+  background: #e7e8e3;
+  max-width: 60px;
+  height: 29px;
+  flex-shrink: 0;
+  color: #2a2c1f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+html body main section:nth-child(8) .eigth-section p:nth-child(2) {
+  padding-top: 25px;
+  color: #2a2c1f;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57.6px; /* 120% */
+}
+html body main section:nth-child(8) .eigth-section p:nth-child(3) {
+  max-width: 710px;
+  padding-top: 29px;
+  color: #65665c;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+html body main section:nth-child(8) .eigth-section .fth-cards {
+  padding-top: 80px;
+  padding-right: 80px;
+  padding-bottom: 129px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+html body main section:nth-child(8) .eigth-section .fth-cards .fth-card {
+  width: 380px;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  z-index: 20;
+  scale: 1.2, 1, 2;
+}
+html body main section:nth-child(8) .eigth-section .fth-cards .fth-card .fth-texts {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: #fff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+html body main section:nth-child(8) .eigth-section .fth-cards .fth-card .fth-texts .facilities {
+  background: #fff;
+  padding-left: 24px;
+  padding-top: 16px;
+  display: flex;
+  gap: 24px;
+  margin-top: 265px;
+}
+html body main section:nth-child(8) .eigth-section .fth-cards .fth-card .fth-texts .facilities p:first-child {
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 32px;
+  background: #e7e8e3;
+  max-width: 60px;
+  height: 29px;
+  flex-shrink: 0;
+  color: #2a2c1f;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+html body main section:nth-child(8) .eigth-section .fth-cards .fth-card .fth-texts .facilities p:nth-child(2) {
+  padding-top: 0 !important;
+  color: #65665c !important;
+  font-family: Roboto;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+html body main section:nth-child(8) .eigth-section .fth-cards .fth-card .fth-texts p:nth-child(2) {
+  padding-left: 24px !important;
+  padding-top: 16px !important;
+  display: flex !important;
+  justify-content: start !important;
+  color: #2a2c1f !important;
+  font-size: 24px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 33.6px !important; /* 140% */
+}
+html body main section:nth-child(8) .eigth-section .fth-cards .fth-card .fth-texts p:nth-child(3) {
+  padding-top: 9px !important;
+  padding-left: 24px !important;
+  color: #65665c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+html body main section:nth-child(8) .eigth-section .fth-cards .fth-card .fth-texts p:nth-child(4) {
+  padding-left: 24px;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  color: #2a2c1f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+html body main section:nth-child(8) .eigth-section .fth-cards .fth-card:hover {
+  transition: 0.4s;
+  box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.2);
+}
+html body main section:nth-child(8) .eigth-section .fth-cards .first {
+  background-image: url(./images/cards-first.svg);
+}
+html body main section:nth-child(8) .eigth-section .fth-cards .second {
+  background-image: url(./images/cards-second.svg);
+}
+html body main section:nth-child(8) .eigth-section .fth-cards .third {
+  background-image: url(./images/cards-third.svg);
+}
+@media only screen and (max-width: 585px) {
+  html body main section:nth-child(8) .eigth-section {
+    padding-left: 0px;
+  }
+  html body main section:nth-child(8) .eigth-section .likes-button {
+    padding-top: 128px;
+  }
+  html body main section:nth-child(8) .eigth-section .likes-button p:first-child {
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 32px;
+    background: #e7e8e3;
+    max-width: 60px;
+    height: 29px;
+    flex-shrink: 0;
+    color: #2a2c1f;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+  }
+  html body main section:nth-child(8) .eigth-section p:nth-child(2) {
+    padding-top: 25px;
+    color: #2a2c1f;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.6px; /* 120% */
+  }
+  html body main section:nth-child(8) .eigth-section p:nth-child(3) {
+    max-width: 710px;
+    padding-top: 29px;
+    color: #65665c;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+  }
+  html body main section:nth-child(8) .eigth-section .fth-cards {
+    padding-top: 80px;
+    padding-right: 0px;
+    padding-bottom: 129px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  html body main section:nth-child(8) .eigth-section .fth-cards .fth-card {
+    width: 380px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    z-index: 20;
+    scale: 1.2, 1, 2;
+  }
+  html body main section:nth-child(8) .eigth-section .fth-cards .fth-card .fth-texts {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  html body main section:nth-child(8) .eigth-section .fth-cards .fth-card .fth-texts .facilities {
+    background: #fff;
+    padding-left: 24px;
+    padding-top: 16px;
+    display: flex;
+    gap: 24px;
+    margin-top: 265px;
+  }
+  html body main section:nth-child(8) .eigth-section .fth-cards .fth-card .fth-texts .facilities p:first-child {
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 32px;
+    background: #e7e8e3;
+    max-width: 60px;
+    height: 29px;
+    flex-shrink: 0;
+    color: #2a2c1f;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+  }
+  html body main section:nth-child(8) .eigth-section .fth-cards .fth-card .fth-texts .facilities p:nth-child(2) {
+    padding-top: 0 !important;
+    color: #65665c !important;
+    font-family: Roboto;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+  }
+  html body main section:nth-child(8) .eigth-section .fth-cards .fth-card .fth-texts p:nth-child(2) {
+    padding-left: 24px !important;
+    padding-top: 16px !important;
+    display: flex !important;
+    justify-content: start !important;
+    color: #2a2c1f !important;
+    font-size: 24px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 33.6px !important; /* 140% */
+  }
+  html body main section:nth-child(8) .eigth-section .fth-cards .fth-card .fth-texts p:nth-child(3) {
+    padding-top: 9px !important;
+    padding-left: 24px !important;
+    color: #65665c;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  html body main section:nth-child(8) .eigth-section .fth-cards .fth-card .fth-texts p:nth-child(4) {
+    padding-left: 24px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    color: #2a2c1f;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
   }
 }
 html body footer .f-part1 {
